@@ -13,9 +13,9 @@ https://cloud.tsinghua.edu.cn/d/3d7a124fb0734c0f836a/
 * If you want to training the CNN model "ToolNet, ToolNetL, EndoNet, EndoNetL, SwinNet, SwinNetL", change the rootdir of datasets in the file `preprocessing/preprocessing.py`and run it.
 * We provide the pre-trained model of the above six deep learning model, which is available in the link below:
 https://cloud.tsinghua.edu.cn/f/9aa2ab6cfffa44058e36/
-* The training and testing code is available in the folder `training and testing`, you only need to set the rootdir of training and testing txt which is produced in the preprocessing step and run it. 
+* The training and testing code is available in the folder `training` and `testing`, you only need to set the rootdir of training and testing txt which is produced in the preprocessing step and run it. 
 * For example, if you want to training and testing SwinNetL on cholec80, run `python swinnet_lstm_training.py` and `python swinnet_lstm_testing.py`
 * Early stopping is no needing in training, because we tune the specific parameter only according to the training set. In this way, we don't need addtional data from training set for eval in order to get the full size training set.
 * If you want to use our pre-trained model and testing on cholec80, simply replace the folder `pre-trained_model` by the folder you have downloaded.
-
+* If you have any question about the code, please contact `wanghf@mails.tsinghua.edu.cn`
 
