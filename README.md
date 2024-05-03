@@ -17,5 +17,7 @@ https://cloud.tsinghua.edu.cn/f/9aa2ab6cfffa44058e36/
 * For example, if you want to training and testing SwinNetL on cholec80, run `python swinnet_lstm_training.py` and `python swinnet_lstm_testing.py`
 * Early stopping is no needing in training, because we tune the specific parameter only according to the training set. In this way, we don't need addtional data from training set for eval in order to get the full size training set.
 * If you want to use our pre-trained model and testing on cholec80, simply replace the folder `pre-trained_model` by the folder you have downloaded.
-* If you have any question about the code, please contact `wanghf@mails.tsinghua.edu.cn`
+* If you have any question about the code, please contact `wanghf@mails.tsinghua.edu.cn`.
+## Online Materials
+Please refer to `Online Materials.pdf`.
 
