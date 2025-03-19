@@ -28,7 +28,8 @@ def construct_toolnet_endonet_swinnet(root_dir):
     from glob import glob
     for i in number_list[:40]:
         img_dir = os.path.join(root_dir,'frames','video'+i)
-        img = glob(img_dir+'\\*')
+        img = glob(img_dir+'/*')
+        img = sorted(img, key=lambda x: int(x.split('_')[-1][:-4]))
         train_img += img
 
     test_label = []
@@ -52,7 +53,8 @@ def construct_toolnet_endonet_swinnet(root_dir):
     from glob import glob
     for i in number_list[40:]:
         img_dir = os.path.join(root_dir,'frames','video'+i)
-        img = glob(img_dir+'\\*.png')
+        img = glob(img_dir+'/*')
+        img = sorted(img, key=lambda x: int(x.split('_')[-1][:-4]))
         test_img += img
 
     phase_list = ['Preparation','CalotTriangleDissection','ClippingCutting','GallbladderDissection',
