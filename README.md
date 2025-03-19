@@ -7,8 +7,6 @@ If you want to reproduce the mAP of our methods in the paper.
 ## Datasets
 * The published benchmark datasets cholec80 is available in the link below:
 https://s3.unistra.fr/camma_public/datasets/cholec80/cholec80.tar.gz
-* You could also download cholec80 in the link:
-https://cloud.tsinghua.edu.cn/d/3d7a124fb0734c0f836a/
 ## Training and Testing
 * If you want to training the CNN model "ToolNet, ToolNetL, EndoNet, EndoNetL, SwinNet, SwinNetL", change the rootdir of datasets in the file `preprocessing/preprocessing.py`and run it.
 * We provide the pre-trained model of the above six deep learning model, which is available in the link below:
