@@ -17,5 +17,5 @@ https://cloud.tsinghua.edu.cn/f/9aa2ab6cfffa44058e36/
 * If you want to use our pre-trained model and testing on cholec80, simply replace the folder `pre-trained_model` by the folder you have downloaded.
 * If you have any question about the code, please contact `519837980@qq.com`.
 ## Online Materials
-Please refer to `Online Materials.pdf`.
+Please refer to `Deep Learning Models for Video Processing.pdf` and `Detailed Calculations for Inferring HMM-stabilized Deep Learning.pdf`.
 
